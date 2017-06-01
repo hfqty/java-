@@ -1,0 +1,25 @@
+
+jsoup框架可以解析html文档
+
+1、根据这个网址：http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%E9%83%91%E5%B7%9E&kw=java&sm=0&sg=57a1f48c24c848a79508ba9e057b2bc7&p=1
+
+使用工具类PureNetUtil中的get方法，能够得到整个查询结果的源代码，即整个列表的html文档
+
+2、使用jsoup，从整个列表html文档中，解析出每个职位的url地址
+   例如：http://jobs.zhaopin.com/452177136250495.htm
+         http://jobs.zhaopin.com/452175464226464.htm
+
+3、再根据这个网址：http://jobs.zhaopin.com/452177136250495.htm，
+使用工具类PureNetUtil中的get方法，能够得到单个职位的源代码
+
+4、使用jsoup，解析出职位名称、公司名称、月薪、发布日期、职位描述、公司介绍等信息
+
+5、把上述拿到的信息保存到mysql一张表中去
+
+6、从表中取出数据显示到控制台上
+
+
+
+
+
+

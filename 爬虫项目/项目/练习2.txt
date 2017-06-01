@@ -1,0 +1,4 @@
+
+1、http://sou.zhaopin.com/jobs/searchresult.ashx?pd=1&jl=%E9%83%91%E5%B7%9E&kw=java&sm=0&p=1&source=0
+
+   找出这个网址对应的页面中，所有公司名称、职位名称、以及职位名称所在a标签的href属性的值
